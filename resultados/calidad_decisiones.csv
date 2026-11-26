@@ -1,0 +1,19 @@
+tabla,campo,tipo_problema,frecuencia,decision,justificacion
+dim_vehiculo,combustible,Categoría inconsistente,1,{'diesel': 'Diesel'},Unificar etiquetas equivalentes; no cambia su significado.
+dim_conductor,turno_habitual,Categoría inconsistente,1,{'manana': 'Manana (06-14h)'},Unificar etiquetas equivalentes; no cambia su significado.
+dim_parada,barrio,Categoría inconsistente,2,"{'centro': 'Centro', 'BARRIO NORTE': 'Barrio Norte'}",Unificar etiquetas equivalentes; no cambia su significado.
+fact_viajes,dia_semana,Etiqueta inconsistente,30,Recalcular desde fecha con un mapa explícito.,Fecha validada es la fuente; evita etiquetas duplicadas y depende menos del idioma del sistema.
+dim_vehiculo,combustible,Nulo,1,Inferir solo con categoría única por modelo; marcar combustible_inferido.,Correspondencia unívoca observada; una categoría ambigua quedaría nula.
+fact_mantenimiento,categoria,Nulo,15,Inferir solo con categoría única por tipo_mantenimiento; marcar categoria_inferida.,Correspondencia unívoca observada; una categoría ambigua quedaría nula.
+dim_conductor,antiguedad_anos,Nulo,1,"Calcular 2024 - anno_incorporacion, con bandera.",Antigüedad en años enteros al cierre; coincide con los valores informados.
+dim_vehiculo,anno_fabricacion,Fuera de dominio,1,Conservar original y bandera; valor analítico nulo.,No existe evidencia para reconstruir el valor real.
+dim_vehiculo,km_totales,Fuera de dominio,1,Conservar original y bandera; valor analítico nulo.,No existe evidencia para reconstruir el valor real.
+dim_parada,latitud,Fuera de dominio,1,"999 pasa a nulo, con original y bandera.",Una latitud debe estar entre -90 y 90 grados.
+dim_parada,latitud,Nulo original,1,Mantener desconocido; excluir de mapas puntuales.,Una mediana de barrio inventaría una ubicación.
+dim_parada,accesible_silla,Nulo,1,Mantener desconocido; informar cobertura.,"La accesibilidad requiere comprobación física, no imputación por mayoría."
+fact_viajes,pasajeros_subidos,Nulo,40,Conservar observado nulo; estimación separada con mediana línea/franja y bandera.,El KPI principal suma pasajeros observados; estimados solo para sensibilidad.
+fact_viajes,consumo,Nulo,1065,Mantener nulo y medir cobertura.,No hay unidad documentada ni evidencia para imputar. No comparar tecnologías con una suma de consumo.
+fact_viajes,retraso_salida_min,Código -99 incompatible con horas,80,"Recuperar diferencia real-programada en [-720,720); original y bandera.",Las otras 49.920 filas concuerdan con la fórmula. Supuesto: desviación menor de 12 horas.
+fact_mantenimiento,coste_eur,Importe negativo sin tipo de abono,25,"Mantener registro; importe analítico nulo, original y bandera. Coste observado válido.","No hay evidencia de abono ni del importe correcto. El KPI informa cobertura, sin presentar estimaciones como coste real."
+fact_mantenimiento,fecha_entrada,Fuera de periodo,47,Conservar filas; excluir del reporting 2022-2024 por fecha de entrada.,Cierre común y reproducible; no se trasladan costes a 2024.
+fact_viajes,fecha / anno_incorporacion vehículo,Cronología de dimensión incompatible,7941,Marcar y conservar viajes; no usar año incorporación para disponibilidad histórica.,"La dimensión es una instantánea sintética, no un historial fiable de altas; requiere aclaración de origen."

@@ -1,0 +1,31 @@
+conductor_id,nombre,anno_incorporacion,antiguedad_anos,turno_habitual,depot_id,formacion,licencia_tipo,activo,ausencias_2024,antiguedad_inferida
+1,Carlos Garcia,2009,15.0,Partido,3,Basica,D,True,14,False
+2,Maria Lopez,2013,11.0,Noche (22-06h),1,Basica,D,True,9,False
+3,Juan Martinez,2008,16.0,Manana (06-14h),2,Completa,D+E,True,6,False
+4,Ana Fernandez,2007,17.0,Manana (06-14h),1,Basica + Articulado,D,True,1,False
+5,Pedro Sanchez,2016,8.0,Partido,3,Basica + Articulado,D,True,10,False
+6,Laura Gonzalez,2005,19.0,Partido,2,Basica,D+E,True,11,False
+7,Miguel Rodriguez,2019,5.0,Tarde (14-22h),2,Basica + Electrico,D+E,True,15,False
+8,Isabel Perez,2019,5.0,Partido,3,Basica + Articulado,D+E,True,7,False
+9,David Jimenez,2007,17.0,Noche (22-06h),2,Basica + Electrico,D+E,True,12,False
+10,Carmen Ruiz,2015,9.0,Manana (06-14h),2,Basica + Articulado,D,True,15,True
+11,Antonio Moreno,2011,13.0,Noche (22-06h),2,Basica + Articulado,D+E,True,8,False
+12,Lucia Alvarez,2022,2.0,Manana (06-14h),3,Basica + Electrico,D,True,7,False
+13,Francisco Torres,2018,6.0,Partido,3,Basica + Electrico,D+E,True,15,False
+14,Sara Romero,2019,5.0,Manana (06-14h),1,Basica + Articulado,D,True,12,False
+15,Jose Diaz,2012,12.0,Noche (22-06h),3,Basica + Articulado,D+E,True,11,False
+16,Marta Hernandez,2018,6.0,Noche (22-06h),2,Completa,D+E,True,9,False
+17,Manuel Vazquez,2013,11.0,Tarde (14-22h),1,Basica + Electrico,D+E,True,3,False
+18,Cristina Morales,2022,2.0,Tarde (14-22h),1,Basica + Electrico,D+E,True,8,False
+19,Jorge Alonso,2023,1.0,Noche (22-06h),1,Basica + Electrico,D+E,True,7,False
+20,Elena Guerrero,2016,8.0,Tarde (14-22h),2,Basica,D,True,8,False
+21,Alejandro Castro,2006,18.0,Manana (06-14h),3,Basica + Articulado,D,True,15,False
+22,Beatriz Ortega,2008,16.0,Manana (06-14h),3,Basica + Articulado,D+E,True,15,False
+23,Raul Ramos,2019,5.0,Noche (22-06h),1,Basica,D+E,True,15,False
+24,Patricia Serrano,2008,16.0,Manana (06-14h),2,Completa,D,True,1,False
+25,Roberto Molina,2009,15.0,Tarde (14-22h),3,Basica + Articulado,D,True,7,False
+26,Nuria Medina,2008,16.0,Partido,3,Basica + Electrico,D+E,True,14,False
+27,Victor Blanco,2019,5.0,Noche (22-06h),3,Completa,D+E,True,1,False
+28,Silvia Delgado,2008,16.0,Tarde (14-22h),3,Basica + Electrico,D+E,True,2,False
+29,Eduardo Nunez,2010,14.0,Tarde (14-22h),1,Basica,D,False,0,False
+30,Pilar Dominguez,2018,6.0,Partido,3,Completa,D+E,False,1,False

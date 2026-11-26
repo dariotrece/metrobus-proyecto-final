@@ -1,0 +1,11 @@
+codigo,nombre,viajes,pasajeros_observados,pasajeros_por_viaje_informado,viajes_con_pasajeros,ocupacion_media_pct
+L7,Estacion - Zona Comercial,5129,325331,63.47,5126,47.22
+L2,Universidad - Hospital,5073,323559,63.79,5072,47.42
+L5,Circular Centro,5128,323496,63.17,5121,47.02
+L9,Centro - Pueblo Este,5024,323484,64.48,5017,47.96
+L8,Barrio Sur - Universidad,5003,319395,63.89,4999,47.27
+L1,Centro - Aeropuerto,4954,316774,63.99,4950,47.61
+L3,Barrio Norte - Estacion,4949,314846,63.66,4946,47.36
+L6,Centro - Pueblo Oeste,4990,313137,62.82,4985,46.67
+L4,Poligono Industrial - Centro,4840,312479,64.6,4837,47.98
+N1,Nocturno Centro,4910,189243,38.57,4907,28.55

@@ -1,0 +1,46 @@
+vehiculo_id,matricula,modelo,combustible,capacidad_sentados,capacidad_total,anno_fabricacion,anno_incorporacion,km_totales,depot_id,emisiones_co2_gkm,en_servicio,combustible_inferido,anno_fabricacion_original,anno_fabricacion_invalido,km_totales_original,km_totales_invalido
+1,6001 BUS,Mercedes-Benz Citaro,Diesel,88,128,2017,2018,586265,1,127,True,False,2017,False,586265,False
+2,6002 BUS,Mercedes-Benz Citaro,Diesel,88,128,2018,2019,317095,1,112,True,False,2018,False,317095,False
+3,6003 BUS,Iveco Urbanway,Diesel,90,130,2018,2019,256606,2,133,True,False,2018,False,256606,False
+4,6004 BUS,Iveco Urbanway,Diesel,90,130,2019,2020,379164,3,121,True,False,2019,False,379164,False
+5,6005 BUS,Solaris Urbino 12,Diesel,85,125,2014,2015,581756,2,119,True,False,2014,False,581756,False
+6,6006 BUS,Solaris Urbino 18,Diesel,145,185,2019,2020,360016,3,125,True,False,2019,False,360016,False
+7,6007 BUS,BYD eBus-12,Electrico,90,130,2020,2021,447562,3,0,True,False,2020,False,447562,False
+8,6008 BUS,BYD eBus-12,Electrico,90,130,,2024,365568,2,0,True,False,2099,True,365568,False
+9,6009 BUS,Irizar ie bus,Electrico,85,125,2024,2025,368635,2,0,True,False,2024,False,368635,False
+10,6010 BUS,Volvo 7900 Hybrid,Hibrido,88,128,2019,2020,387902,2,75,True,False,2019,False,387902,False
+11,6011 BUS,Volvo 7900 Hybrid,Hibrido,88,128,2021,2022,274082,3,75,True,False,2021,False,274082,False
+12,6012 BUS,MAN Lions City,Diesel,88,128,2016,2017,138914,2,110,True,False,2016,False,138914,False
+13,6013 BUS,MAN Lions City G,Diesel,140,180,2020,2021,401470,1,139,True,False,2020,False,401470,False
+14,6014 BUS,Mercedes-Benz eCitaro,Electrico,85,125,2022,2023,285552,1,0,True,False,2022,False,285552,False
+15,6015 BUS,Scania Citywide,Diesel,88,128,2016,2017,548216,3,115,True,False,2016,False,548216,False
+16,6016 BUS,Mercedes-Benz Citaro,Diesel,88,128,2015,2016,,3,140,True,False,2015,False,-500,True
+17,6017 BUS,Mercedes-Benz Citaro,Diesel,88,128,2019,2020,305836,1,125,True,False,2019,False,305836,False
+18,6018 BUS,Iveco Urbanway,Diesel,90,130,2018,2019,495798,1,106,True,False,2018,False,495798,False
+19,6019 BUS,Iveco Urbanway,Diesel,90,130,2018,2019,537115,1,133,True,False,2018,False,537115,False
+20,6020 BUS,Solaris Urbino 12,Diesel,85,125,2016,2017,528634,1,107,True,False,2016,False,528634,False
+21,6021 BUS,Solaris Urbino 18,Diesel,145,185,2018,2019,382711,2,135,True,False,2018,False,382711,False
+22,6022 BUS,BYD eBus-12,Electrico,90,130,2022,2023,579298,2,0,True,False,2022,False,579298,False
+23,6023 BUS,BYD eBus-12,Electrico,90,130,2023,2024,216889,3,0,True,False,2023,False,216889,False
+24,6024 BUS,Irizar ie bus,Electrico,85,125,2023,2024,309249,3,0,True,False,2023,False,309249,False
+25,6025 BUS,Volvo 7900 Hybrid,Hibrido,88,128,2020,2021,596622,2,75,True,False,2020,False,596622,False
+26,6026 BUS,Volvo 7900 Hybrid,Hibrido,88,128,2022,2023,511239,1,75,True,False,2022,False,511239,False
+27,6027 BUS,MAN Lions City,Diesel,88,128,2017,2018,402161,2,117,True,False,2017,False,402161,False
+28,6028 BUS,MAN Lions City G,Diesel,140,180,2020,2021,292495,2,109,True,False,2020,False,292495,False
+29,6029 BUS,Mercedes-Benz eCitaro,Electrico,85,125,2024,2025,274345,1,0,True,False,2024,False,274345,False
+30,6030 BUS,Scania Citywide,Diesel,88,128,2017,2018,538557,2,134,True,False,2017,False,538557,False
+31,6031 BUS,Mercedes-Benz Citaro,Diesel,88,128,2015,2016,458396,3,126,True,False,2015,False,458396,False
+32,6032 BUS,Mercedes-Benz Citaro,Diesel,88,128,2019,2020,448858,2,136,True,True,2019,False,448858,False
+33,6033 BUS,Iveco Urbanway,Diesel,90,130,2016,2017,458930,2,119,True,False,2016,False,458930,False
+34,6034 BUS,Iveco Urbanway,Diesel,90,130,2020,2021,281251,2,134,True,False,2020,False,281251,False
+35,6035 BUS,Solaris Urbino 12,Diesel,85,125,2014,2015,80434,2,131,True,False,2014,False,80434,False
+36,6036 BUS,Solaris Urbino 18,Diesel,145,185,2018,2019,223061,2,125,True,False,2018,False,223061,False
+37,6037 BUS,BYD eBus-12,Electrico,90,130,2020,2021,78276,2,0,True,False,2020,False,78276,False
+38,6038 BUS,BYD eBus-12,Electrico,90,130,2023,2024,78418,1,0,True,False,2023,False,78418,False
+39,6039 BUS,Irizar ie bus,Electrico,85,125,2024,2025,534125,1,0,True,False,2024,False,534125,False
+40,6040 BUS,Volvo 7900 Hybrid,Hibrido,88,128,2019,2020,393254,1,75,True,False,2019,False,393254,False
+41,6041 BUS,Volvo 7900 Hybrid,Hibrido,88,128,2021,2022,447542,2,75,True,False,2021,False,447542,False
+42,6042 BUS,MAN Lions City,Diesel,88,128,2016,2017,543152,1,105,True,False,2016,False,543152,False
+43,6043 BUS,MAN Lions City G,Diesel,140,180,2020,2021,285113,3,122,False,False,2020,False,285113,False
+44,6044 BUS,Mercedes-Benz eCitaro,Electrico,85,125,2022,2023,92213,1,0,False,False,2022,False,92213,False
+45,6045 BUS,Scania Citywide,Diesel,88,128,2016,2017,209784,1,101,False,False,2016,False,209784,False

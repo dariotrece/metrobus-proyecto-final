@@ -1,0 +1,42 @@
+[
+  {
+    "control": "validar_fuentes",
+    "estado": "OK",
+    "detalle": "9 hashes coincidentes; 55.093 registros originales conservados."
+  },
+  {
+    "control": "validar_limpieza",
+    "estado": "OK",
+    "detalle": "18 reglas; correcciones contrastadas y nulos preservados."
+  },
+  {
+    "control": "validar_sql",
+    "estado": "OK",
+    "detalle": "PK, FK y CHECK efectivos; 12 consultas y KPIs reconciliados con pandas."
+  },
+  {
+    "control": "validar_notebook",
+    "estado": "OK",
+    "detalle": "11 celdas ejecutadas sin errores y 6 figuras embebidas."
+  },
+  {
+    "control": "validar_calendario",
+    "estado": "OK",
+    "detalle": "1.461 fechas y 10.227 claves fecha-franja únicas; hechos cubiertos."
+  },
+  {
+    "control": "validar_portabilidad",
+    "estado": "OK",
+    "detalle": "Scripts sin rutas personales fijas; recursos Tableau internos relativos."
+  },
+  {
+    "control": "validar_presentacion",
+    "estado": "OK",
+    "detalle": "8 páginas con texto; valores de la presentación reconciliados con datos limpios."
+  },
+  {
+    "control": "validar_tableau",
+    "estado": "OK",
+    "detalle": "TWBX autocontenido: 3 fuentes, 3 dashboards, 15 hojas, relaciones muchos-a-uno sin pérdida."
+  }
+]

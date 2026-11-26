@@ -1,0 +1,13 @@
+tipo_incidencia,categoria,severidad,incidencias,coste_estimado_eur,resolucion_media_min,retiradas
+Accidente grave,Seguridad,Critica,328,2778296.77,44.76,328
+Accidente leve,Seguridad,Alta,332,759192.77,42.14,332
+Averia mecanica,Vehiculo,Alta,347,561087.09,41.25,347
+Fallo electrico,Vehiculo,Alta,332,388336.23,41.81,332
+Vandalismo,Seguridad,Media,330,149936.91,16.72,0
+Pinchazo,Vehiculo,Media,335,80565.28,18.25,335
+Fallo climatizacion,Vehiculo,Baja,312,53318.77,18.56,0
+Pasajero enfermo,Servicio,Media,311,16694.4,17.06,0
+Retencion trafico,Externo,Baja,312,7669.17,19.03,0
+Condiciones meteo,Externo,Media,382,0.0,16.95,0
+Huelga parcial,Operacional,Alta,339,0.0,48.58,339
+Obras calzada,Externo,Media,340,0.0,17.54,0

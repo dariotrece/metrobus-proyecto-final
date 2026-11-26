@@ -1,0 +1,16 @@
+{
+  "tablas": {
+    "dim_depot": 3,
+    "dim_linea": 10,
+    "dim_vehiculo": 45,
+    "dim_conductor": 30,
+    "dim_parada": 120,
+    "dim_tarifa": 9,
+    "fact_viajes": 50000,
+    "fact_incidencias": 4000,
+    "fact_mantenimiento": 876
+  },
+  "foreign_key_check": "OK",
+  "integrity_check": "OK",
+  "consultas_ejecutadas": 12
+}

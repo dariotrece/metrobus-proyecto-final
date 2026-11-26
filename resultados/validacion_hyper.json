@@ -1,0 +1,14 @@
+{
+  "Viajes": {
+    "filas": 50000,
+    "estado": "OK"
+  },
+  "Incidencias": {
+    "filas": 4000,
+    "estado": "OK"
+  },
+  "Mantenimiento": {
+    "filas": 876,
+    "estado": "OK"
+  }
+}

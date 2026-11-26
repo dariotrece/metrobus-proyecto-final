@@ -1,0 +1,113 @@
+{
+  "paquete": "OK",
+  "fuentes_hechos": 3,
+  "hojas": 15,
+  "dashboards": 3,
+  "parametros_globales": 4,
+  "lineas_selector": [
+    "Todas",
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "L8",
+    "L9",
+    "N1"
+  ],
+  "relaciones_verificadas": [
+    {
+      "fuente": "Viajes",
+      "relacion": "f__linea_id -> l__linea_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Viajes",
+      "relacion": "f__vehiculo_id -> v__vehiculo_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Viajes",
+      "relacion": "f__conductor_id -> c__conductor_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Viajes",
+      "relacion": "f__parada_origen_id -> po__parada_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Viajes",
+      "relacion": "f__parada_destino_id -> pd__parada_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Viajes",
+      "relacion": "f__tarifa_predominante_id -> tar__tarifa_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Viajes",
+      "relacion": "v__depot_id -> d__depot_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Viajes",
+      "relacion": "f__fecha_franja_id -> t__fecha_franja_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Incidencias",
+      "relacion": "f__linea_id -> l__linea_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Incidencias",
+      "relacion": "f__vehiculo_id -> v__vehiculo_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Incidencias",
+      "relacion": "f__conductor_id -> c__conductor_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Incidencias",
+      "relacion": "f__fecha_franja_id -> t__fecha_franja_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Mantenimiento",
+      "relacion": "f__vehiculo_id -> v__vehiculo_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Mantenimiento",
+      "relacion": "f__depot_id -> d__depot_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    },
+    {
+      "fuente": "Mantenimiento",
+      "relacion": "f__fecha_franja_id -> t__fecha_franja_id",
+      "cardinalidad": "muchos a uno",
+      "resultado": "OK"
+    }
+  ],
+  "alcance": "Comprobación estructural y de datos; la comprobación visual se realiza en Tableau Public."
+}

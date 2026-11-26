@@ -1,0 +1,8 @@
+franja_id,franja_horaria,orden
+0,Sin franja,0
+1,Madrugada,1
+2,Manana punta,2
+3,Valle manana,3
+4,Tarde,4
+5,Tarde punta,5
+6,Noche,6

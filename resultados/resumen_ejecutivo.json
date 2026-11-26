@@ -1,0 +1,219 @@
+{
+  "viajes": 50000,
+  "pasajeros_observados": 3061744,
+  "cobertura_pasajeros_pct": 99.92,
+  "retrasados_pct": 24.632,
+  "retraso_medio_min": 4.057,
+  "pasajeros_punta_pct": 63.06033424087709,
+  "viajes_punta_pct": 40.342,
+  "incidencias": 4000,
+  "incidencias_por_1000_viajes": 80.0,
+  "mantenimientos_periodo": 829,
+  "costes_excluidos_periodo": 23,
+  "coste_observado_periodo": 632808.45,
+  "cambio_coste_observado_pct": 52.66509849521417,
+  "cambio_intervenciones_validas_pct": 61.95121951219513,
+  "cambio_coste_medio_pct": -5.733900025545468,
+  "franjas": [
+    {
+      "franja_horaria": "Madrugada",
+      "viajes": 2002,
+      "pasajeros": 76721.0,
+      "pasajeros_conocidos": 2000,
+      "ocupacion_media": 0.2828526473526473,
+      "retraso_medio": -0.011488511488511488,
+      "retrasados": 0,
+      "retrasos_conocidos": 2002,
+      "pasajeros_por_viaje_conocido": 38.3605,
+      "retrasados_pct": 0.0
+    },
+    {
+      "franja_horaria": "Manana punta",
+      "viajes": 8958,
+      "pasajeros": 861477.0,
+      "pasajeros_conocidos": 8954,
+      "ocupacion_media": 0.7139362580933244,
+      "retraso_medio": 6.427997320830542,
+      "retrasados": 3711,
+      "retrasos_conocidos": 8958,
+      "pasajeros_por_viaje_conocido": 96.21141389323208,
+      "retrasados_pct": 41.42665773610181
+    },
+    {
+      "franja_horaria": "Noche",
+      "viajes": 6894,
+      "pasajeros": 264834.0,
+      "pasajeros_conocidos": 6887,
+      "ocupacion_media": 0.28616884247171454,
+      "retraso_medio": 2.5393095445314766,
+      "retrasados": 939,
+      "retrasos_conocidos": 6894,
+      "pasajeros_por_viaje_conocido": 38.45418905183679,
+      "retrasados_pct": 13.62053959965187
+    },
+    {
+      "franja_horaria": "Tarde",
+      "viajes": 7266,
+      "pasajeros": 272917.0,
+      "pasajeros_conocidos": 7260,
+      "ocupacion_media": 0.2795733553537022,
+      "retraso_medio": 2.567162124965593,
+      "retrasados": 987,
+      "retrasos_conocidos": 7266,
+      "pasajeros_por_viaje_conocido": 37.59187327823692,
+      "retrasados_pct": 13.583815028901734
+    },
+    {
+      "franja_horaria": "Tarde punta",
+      "viajes": 11213,
+      "pasajeros": 1069269.0,
+      "pasajeros_conocidos": 11199,
+      "ocupacion_media": 0.7100417372692411,
+      "retraso_medio": 6.590653705520378,
+      "retrasados": 4838,
+      "retrasos_conocidos": 11213,
+      "pasajeros_por_viaje_conocido": 95.47897133672649,
+      "retrasados_pct": 43.14634798894141
+    },
+    {
+      "franja_horaria": "Valle manana",
+      "viajes": 13667,
+      "pasajeros": 516526.0,
+      "pasajeros_conocidos": 13660,
+      "ocupacion_media": 0.28100256091314846,
+      "retraso_medio": 2.5778151752396283,
+      "retrasados": 1841,
+      "retrasos_conocidos": 13667,
+      "pasajeros_por_viaje_conocido": 37.813030746705714,
+      "retrasados_pct": 13.470403160898515
+    }
+  ],
+  "lineas": [
+    {
+      "linea_id": 1,
+      "viajes": 4954,
+      "pasajeros": 316774.0,
+      "retrasados": 1286,
+      "retrasos_conocidos": 4954,
+      "retraso_medio": 4.285829632620105,
+      "codigo": "L1",
+      "retrasados_pct": 25.958821154622527
+    },
+    {
+      "linea_id": 2,
+      "viajes": 5073,
+      "pasajeros": 323559.0,
+      "retrasados": 1315,
+      "retrasos_conocidos": 5073,
+      "retraso_medio": 4.23023851764242,
+      "codigo": "L2",
+      "retrasados_pct": 25.92154543662527
+    },
+    {
+      "linea_id": 3,
+      "viajes": 4949,
+      "pasajeros": 314846.0,
+      "retrasados": 1334,
+      "retrasos_conocidos": 4949,
+      "retraso_medio": 4.394221054758537,
+      "codigo": "L3",
+      "retrasados_pct": 26.954940391998385
+    },
+    {
+      "linea_id": 4,
+      "viajes": 4840,
+      "pasajeros": 312479.0,
+      "retrasados": 1311,
+      "retrasos_conocidos": 4840,
+      "retraso_medio": 4.440495867768595,
+      "codigo": "L4",
+      "retrasados_pct": 27.08677685950413
+    },
+    {
+      "linea_id": 5,
+      "viajes": 5128,
+      "pasajeros": 323496.0,
+      "retrasados": 1350,
+      "retrasos_conocidos": 5128,
+      "retraso_medio": 4.336973478939157,
+      "codigo": "L5",
+      "retrasados_pct": 26.326053042121686
+    },
+    {
+      "linea_id": 6,
+      "viajes": 4990,
+      "pasajeros": 313137.0,
+      "retrasados": 1305,
+      "retrasos_conocidos": 4990,
+      "retraso_medio": 4.2765531062124245,
+      "codigo": "L6",
+      "retrasados_pct": 26.152304609218437
+    },
+    {
+      "linea_id": 7,
+      "viajes": 5129,
+      "pasajeros": 325331.0,
+      "retrasados": 1368,
+      "retrasos_conocidos": 5129,
+      "retraso_medio": 4.318775589783583,
+      "codigo": "L7",
+      "retrasados_pct": 26.671865860791577
+    },
+    {
+      "linea_id": 8,
+      "viajes": 5003,
+      "pasajeros": 319395.0,
+      "retrasados": 1320,
+      "retrasos_conocidos": 5003,
+      "retraso_medio": 4.297621427143714,
+      "codigo": "L8",
+      "retrasados_pct": 26.38416949830102
+    },
+    {
+      "linea_id": 9,
+      "viajes": 5024,
+      "pasajeros": 323484.0,
+      "retrasados": 1326,
+      "retrasos_conocidos": 5024,
+      "retraso_medio": 4.415406050955414,
+      "codigo": "L9",
+      "retrasados_pct": 26.393312101910826
+    },
+    {
+      "linea_id": 10,
+      "viajes": 4910,
+      "pasajeros": 189243.0,
+      "retrasados": 401,
+      "retrasos_conocidos": 4910,
+      "retraso_medio": 1.5283095723014257,
+      "codigo": "N1",
+      "retrasados_pct": 8.167006109979633
+    }
+  ],
+  "mantenimiento_anual": [
+    {
+      "anio": 2022,
+      "intervenciones": 211,
+      "costes_validos": 205,
+      "coste_observado": 172136.79,
+      "coste_medio_valido": 839.6916585365854,
+      "cobertura_coste_pct": 97.1563981042654
+    },
+    {
+      "anio": 2023,
+      "intervenciones": 280,
+      "costes_validos": 269,
+      "coste_observado": 197878.86000000002,
+      "coste_medio_valido": 735.6091449814126,
+      "cobertura_coste_pct": 96.07142857142857
+    },
+    {
+      "anio": 2024,
+      "intervenciones": 338,
+      "costes_validos": 332,
+      "coste_observado": 262792.8,
+      "coste_medio_valido": 791.5445783132529,
+      "cobertura_coste_pct": 98.22485207100591
+    }
+  ]
+}

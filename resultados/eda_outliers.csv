@@ -1,0 +1,10 @@
+tabla,campo,Q1,Q3,limite_inferior,limite_superior,extremos_IQR,porcentaje_no_nulos
+fact_viajes,pasajeros_subidos,30.0,91.0,-61.5,182.5,4,0.008006405124099279
+fact_viajes,retraso_salida_min,1.0,5.0,-5.0,11.0,4227,8.454
+fact_viajes,ocupacion_pct,0.227,0.688,-0.4645,1.3795,0,0.0
+fact_viajes,km_recorridos,9.7,18.4,-3.3499999999999996,31.449999999999996,0,0.0
+fact_viajes,consumo,3.6,9.08,-4.620000000000001,17.3,4863,9.93767242260141
+fact_mantenimiento,coste_eur,237.71249999999998,922.1,-788.8687500000002,1948.68125,70,7.9908675799086755
+fact_mantenimiento,dias_fuera_servicio,1.0,3.0,-2.0,6.0,37,4.223744292237443
+dim_vehiculo,anno_fabricacion,2017.0,2021.0,2011.0,2027.0,1,2.2222222222222223
+dim_vehiculo,km_totales,274345.0,495798.0,-57834.5,827977.5,0,0.0

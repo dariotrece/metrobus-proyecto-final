@@ -1,0 +1,6 @@
+# Análisis, limpieza, SQL y ejecución del notebook en VS Code.
+# Entorno comprobado: Python 3.13.5; SQLite forma parte de Python.
+numpy==2.5.0
+pandas==3.0.3
+matplotlib==3.11.1
+ipykernel==7.3.0

@@ -1,0 +1,24 @@
+regla,incumplimientos
+PK dim_depot.depot_id,0
+PK dim_linea.linea_id,0
+PK dim_vehiculo.vehiculo_id,0
+PK dim_conductor.conductor_id,0
+PK dim_parada.parada_id,0
+PK dim_tarifa.tarifa_id,0
+PK fact_viajes.viaje_id,0
+PK fact_incidencias.incidencia_id,0
+PK fact_mantenimiento.mantenimiento_id,0
+FK dim_vehiculo.depot_id -> dim_depot.depot_id,0
+FK dim_conductor.depot_id -> dim_depot.depot_id,0
+FK fact_viajes.linea_id -> dim_linea.linea_id,0
+FK fact_viajes.vehiculo_id -> dim_vehiculo.vehiculo_id,0
+FK fact_viajes.conductor_id -> dim_conductor.conductor_id,0
+FK fact_viajes.parada_origen_id -> dim_parada.parada_id,0
+FK fact_viajes.parada_destino_id -> dim_parada.parada_id,0
+FK fact_viajes.tarifa_predominante_id -> dim_tarifa.tarifa_id,0
+FK fact_incidencias.viaje_id -> fact_viajes.viaje_id,0
+FK fact_incidencias.linea_id -> dim_linea.linea_id,0
+FK fact_incidencias.vehiculo_id -> dim_vehiculo.vehiculo_id,0
+FK fact_incidencias.conductor_id -> dim_conductor.conductor_id,0
+FK fact_mantenimiento.vehiculo_id -> dim_vehiculo.vehiculo_id,0
+FK fact_mantenimiento.depot_id -> dim_depot.depot_id,0
